@@ -17,6 +17,7 @@ $(document).ready(function() {
                     }
                     $(".remove").click(function() {
                         $(this).parent(".pip").remove();
+                        $("#files").val(null);
                     });
 
                     // Old code here
