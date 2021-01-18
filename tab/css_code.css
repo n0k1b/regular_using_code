@@ -24,7 +24,12 @@
 }
 
 
-}
+
 .tab-content>div:last-child {
     display: none;
 }
+
+/* .tab-content > div:nth-last-child(-n+2) {
+    display:none;
+} */
+/* More than two child */
